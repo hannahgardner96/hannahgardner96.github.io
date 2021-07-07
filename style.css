@@ -10,20 +10,37 @@ body {
     align-items: flex-start;
 }
 
+.container {
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 100%;
+    justify-content: center;
+} 
+
+.section-title {
+    margin-top: 10%;
+}
+
+.extra-margin-top {
+    padding-top: 3%;
+}
+
 /* === NAV STYLING === */
 .section-nav {
     display: inline-flex;
     flex-direction: row;
+    justify-content: center;
     justify-self: center;
-    width: 50%;
+    width: 80%;
     position: fixed;
     top: 0px;
-    background-color: white;
-    margin-left: 7%;
+    background:white;
+    border: solid 2px black;
+    margin: 1%;
 }
 
 .nav-ul {
-    width: 100%;
+    width: 80%;
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
@@ -34,8 +51,8 @@ body {
 
 .nav-li {
     padding: 3%;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 0;
     cursor: pointer;
 }
@@ -43,17 +60,15 @@ body {
 /* === LANDING PAGE === */
 .landing-page {
     display: inline-flex;
+    width: 90%;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: space-between;
     text-align: center;
     height: 100%;
+    margin: auto;
     margin-top: 10%;
 }
 
-/* .landing-top {
-    margin-top: auto;
-} */
 
 .self-photo {
     width: 50%;
@@ -67,7 +82,7 @@ body {
 
 /* === PORTFOLIO === */
 .portfolio {
-    width: 100%;
+    width: 90%;
     height: 100%;
     text-align: center;
     display: inline-flex;
@@ -98,7 +113,7 @@ body {
 /* === SKILLS === */
 .skills {
     height: 100%;
-    width: 100%;
+    width: 90%;
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -114,16 +129,21 @@ body {
 }
 
 .spec-skill {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     border: 1px black solid;
     text-align: center;
     margin: 2%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
 
 /* === RESUME === */
 .resume {
     height: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -134,5 +154,6 @@ body {
 /* === CONTACT === */
 .contact {
     height: 100%;
+    width: 90%;
     text-align: center;
 }
